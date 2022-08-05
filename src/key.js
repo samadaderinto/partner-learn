@@ -1,0 +1,3 @@
+const KEY_API_AUDIO = "6ea6b9c3c2514f638123817e7b8105d2"
+
+export default KEY_API_AUDIO;

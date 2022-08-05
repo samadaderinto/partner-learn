@@ -1,0 +1,34 @@
+.results {
+ padding: 25px;
+ background: #07dada;
+ width: 580px;
+ border-bottom-right-radius: 10px;
+
+ &-overview {
+    height: 340px;
+    width: 100%;
+    &-video {
+        height: 80%;
+        width: 100%;
+    }
+
+    &-audio {
+        width: 100%;
+        height: 20%;
+        
+    }
+ }
+
+ &-download {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+
+    &-btn {
+        height: 50px;
+        width: 49%;
+        
+        
+    }
+ }
+}

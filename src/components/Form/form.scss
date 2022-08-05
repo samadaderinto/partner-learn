@@ -1,0 +1,49 @@
+.form {
+    padding: 25px;
+    background: #07dada;
+    width: 470px;
+    border-bottom-left-radius: 10px;
+
+    & > div {
+        margin-bottom: 10px;
+    }
+  
+    &-select {
+         h4 {
+            margin-bottom: 15px;
+        }
+        select {
+            width: 100%;
+            height: 50px;
+            
+        }
+    }
+    
+    &-input {
+       h4 {
+        margin-bottom: 15px;
+    }
+      
+       textarea {
+        resize: none;
+        padding: 10px;
+        width: 100%;
+        height: 180px;
+       }
+       
+    }
+
+    &-background {
+
+        h4 {
+            margin-bottom: 15px;
+        }
+          
+        &-btn button{
+            height: 70px;
+            width: 70px;
+            margin-right: 12px;
+        }
+    }
+}
+

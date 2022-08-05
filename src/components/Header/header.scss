@@ -1,0 +1,53 @@
+.header {
+    display: flex;
+    height: 10%;
+    padding: 5px 25px;
+    align-items: center;
+    justify-content: space-between;
+    background: #08b1b1;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom: 1px solid grey;
+
+    &-logo {
+        font-size: 25px;
+        font-weight: 900;
+
+    }
+
+    &-info {
+        display: flex;
+        align-items: center;
+
+        h3 {
+            margin-right: 35px;
+        }
+
+        span {
+            display: flex;
+            align-items: center;
+
+            img,
+            a {
+                margin: 0 5px;
+            }
+
+            a {
+                text-decoration: none;
+                color: #fff;
+
+            }
+
+            a:hover {
+                text-decoration: underline;
+                transition: all .7s;
+            }
+
+            img {
+                height: 30px;
+                width: 30px;
+            }
+
+        }
+    }
+}
